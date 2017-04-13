@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <title>work</title>
+  <link rel="stylesheet" href="../dist/css/lightbox.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="jquery-1.11.3.js"></script>
+</head>
+<body>
+
+  <section>
+    <!--
+    <h3>Two Individual Images 個別的圖片(點擊時light box沒有箭頭可以看下一張或上一張圖片)</h3>
+    <div>
+      <a href="http://lokeshdhakar.com/projects/lightbox2/images/image-1.jpg" data-lightbox="example-1"><img src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-1.jpg" alt="image-1" /></a>
+      <a href="http://lokeshdhakar.com/projects/lightbox2/images/image-2.jpg" data-lightbox="example-2" data-title="Optional caption."><img src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-2.jpg" alt="image-1"/></a>
+    </div>
+    -->
+    <h1 style="font-size:50px;display:none;" id="wo">Works</h1>
+    <div id="bar" style="width:0px;height:10px;background:#f5d873;margin-left:-50px;margin-top:-30px;"></div>
+    <div id="theall" style="position:absolute;top:110px;">
+      <h3>Works/Activities</h3>
+      <div id="WA">
+        <a  href="http://i.imgur.com/9HnnyW0.png" data-lightbox="example-set" data-title="魔鏡夢遊"><img class="imgclick" src="../gellery_image/small001.png" alt=""/></a>
+        <a  href="http://i.imgur.com/a3ixT9e.png" data-lightbox="example-set" data-title="跳 誕嘶"><img class="imgclick" src="../gellery_image/small002.png" alt="" /></a>
+        <a  href="http://i.imgur.com/3DAxY6W.jpg" data-lightbox="example-set" data-title="宿營營服 大一新生"><img class="imgclick" src="../gellery_image/small003.png" alt="" /></a>
+        <a  href="http://i.imgur.com/2y6kaXj.jpg" data-lightbox="example-set" data-title="宿營營服 大二"><img class="imgclick" src="../gellery_image/small004.png" alt="" /></a>
+        <a  href="http://i.imgur.com/HrjJHvC.jpg" data-lightbox="example-set" data-title="系刊封面"><img class="imgclick" src="../gellery_image/small005.png" alt="" /></a>
+         <a  href="http://i.imgur.com/H3sXLdw.png" data-lightbox="example-set" data-title="窮嘶盃 服耳膜嘶"><img class="imgclick" src="../gellery_image/small006.png" alt="" /></a>
+         <a  href="http://i.imgur.com/X5HyixX.jpg" data-lightbox="example-set" data-title="委託-小海報"><img class="imgclick" src="../gellery_image/small020.png" alt="" /></a>
+      </div>
+       <h3>Doujinshi</h3>
+      <div id="DOU">
+        <a  href="http://i.imgur.com/9B8O32Q.png" data-lightbox="example-set" data-title="HQ 及川徹"><img class="imgclick" src="../gellery_image/small007.png" alt=""/></a>
+        <a  href="http://i.imgur.com/GhsRmupm.png" data-lightbox="example-set" data-title="HQ 及川"><img class="imgclick" src="../gellery_image/small010.png" alt="" /></a>
+        <a  href="http://i.imgur.com/BC5YzDHm.png" data-lightbox="example-set" data-title="HQ 小岩"><img class="imgclick" src="../gellery_image/small011.png" alt="" /></a>
+        <a  href="http://i.imgur.com/bFMggwk.jpg" data-lightbox="example-set" data-title="青三小孩本 封面"><img class="imgclick" src="../gellery_image/small012.png" alt="" /></a>
+        <a  href="http://i.imgur.com/xpxT0Vv.png" data-lightbox="example-set" data-title="HQ 阿吽"><img class="imgclick" src="../gellery_image/small009.png" alt="" /></a>
+        <a  href="http://i.imgur.com/TaqHVML.png" data-lightbox="example-set" data-title="DMMd 蓮"><img class="imgclick" src="../gellery_image/small008.png" alt="" /></a>
+      </div>    
+       <h3>Original</h3>
+      <div id="ORI">
+        <a  href="http://i.imgur.com/urnZaPP.png" data-lightbox="example-set" data-title="晶"><img class="imgclick" src="../gellery_image/small013.png" alt=""/></a>
+        <a  href="http://i.imgur.com/VGmaRWX.png" data-lightbox="example-set" data-title="女孩"><img class="imgclick" src="../gellery_image/small014.png" alt="" /></a>
+        <a  href="http://i.imgur.com/AgVdHMO.png" data-lightbox="example-set" data-title="龍與男孩"><img class="imgclick" src="../gellery_image/small015.png" alt="" /></a>
+        <a  href="http://i.imgur.com/0pO2IVd.png" data-lightbox="example-set" data-title="月"><img class="imgclick" src="../gellery_image/small016.png" alt="" /></a>
+        <a  href="http://i.imgur.com/PoVe3mt.png" data-lightbox="example-set" data-title="練習"><img class="imgclick" src="../gellery_image/small017.png" alt="" /></a>
+        <a  href="http://i.imgur.com/X9YKTMb.png" data-lightbox="example-set" data-title="Attack"><img class="imgclick" src="../gellery_image/small019.png" alt="" /></a>
+        <a  href="http://i.imgur.com/poxsGAt.png" data-lightbox="example-set" data-title="Pillow喵 逃"><img class="imgclick" src="../gellery_image/small018.png" alt="" /></a>
+        <a  href="http://i.imgur.com/rW9bHed.png" data-lightbox="example-set" data-title="練習"><img class="imgclick" src="../gellery_image/small021.png" alt="" /></a>
+      </div>
+    </div>       
+  </section>
+
+<script>
+  $(document).ready(function(){
+    $("#bar").animate({
+      height:'10px',
+      width:'400px'
+    },900);
+    $("#wo").fadeIn(2000);
+    $("#theall").animate({
+      left:'30px',
+    },400);
+     $("#theall").animate({
+      left:'15px',
+    },600);
+  });
+</script>
+<script src="../dist/js/lightbox-plus-jquery.min.js"></script>
+
+</body>
+</html>
